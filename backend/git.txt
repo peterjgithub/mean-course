@@ -76,3 +76,9 @@ git merge feature_x
 git remote add origin git@github.com:peterjgithub/mean-course.git
 git branch -M main
 git push -u origin main
+
+
+commands:
+git add .
+git commit -a -m message
+git push --all
