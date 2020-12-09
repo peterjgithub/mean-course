@@ -1,0 +1,78 @@
+git config --global user.name "your-name"
+git config --global user.email "your-email@xxx.com"
+
+//use vis. code
+git config --global core.editor "code --wait"
+
+check for SSH key
+tilde = option + N
+
+ls ~/.ssh
+
+github account:
+@peterjgithub
+peter@nowhow.be
+Stopnietgh0!
+
+ssh-keygen -t rsa -b 4096 -C "peter@nowhow.be"
+
+Your identification has been saved in /Users/Peter/.ssh/id_rsa.
+Your public key has been saved in /Users/Peter/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:wzzLcQAvCBsFBIT4g26QJtHQQ0Qxm95Veqo9ccxRNCI peter@nowhow.be
+The key's randomart image is:
++---[RSA 4096]----+
+|*@@+. E o.+      |
+|+ +B . * o .     |
+| =+.. + =        |
+|=oo. . O o       |
+|= ... o S .      |
+| o   o + *       |
+|.   . o o        |
+|       .         |
+|                 |
++----[SHA256]-----+
+
+copy key from /Users/Peter/.ssh/id_rsa.pub
+SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8
+and store this value in the github account settings as pub key
+
+to test:
+ssh -T git@github.com
+
+in project folder:
+git init
+
+to copy existing folder:
+go to github & copy the repo link to clone
+git clone ssh_url
+
+git add: track all changes in the working directory (index/staging)
+working directory
+> staging
+git commit
+
+> HEAD
+git push
+
+create copy
+
+
+other user:
+git pull
+will pull all updates to your computer
+
+branches:
+1) git branch feature_x
+2) git checkout feature_x
+=> only get updates from that branch
+
+merge changes back:
+git merge feature_x
+
+
+/Users/Peter/Dropbox/Dev/mean-course/backend/git.txt
+
+git remote add origin git@github.com:peterjgithub/mean-course.git
+git branch -M main
+git push -u origin main

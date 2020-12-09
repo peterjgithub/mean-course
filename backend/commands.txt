@@ -1,0 +1,22 @@
+start angular srv: ng
+start nodejs (zonder nodemon): node server.js
+start nodemon: npm run start:server
+
+cloud.mongodb.com:
+//user: max
+//pwd: 2h2JQUsrtrD5rWGU
+
+to use mongoDb client:
+
+1) open on Apple terminal
+/usr/local/Cellar/mongodb-community-shell/4.2.0/bin
+
+2) run
+mongo "mongodb+srv://cluster0.gwtmm.mongodb.net/db4node-angular" --username max
+
+3) enter pwd when requested
+
+in client:
+use db4node-angular
+show collections
+db.posts.find()
