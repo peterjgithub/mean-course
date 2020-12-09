@@ -4,7 +4,7 @@ start nodemon: npm run start:server
 
 cloud.mongodb.com:
 //user: max
-//pwd: 2h2JQUsrtrD5rWGU
+//pwd: 
 
 to use mongoDb client:
 
