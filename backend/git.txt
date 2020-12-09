@@ -6,6 +6,12 @@ git commit -a -m message
 git push --all
 
 
+
+git rm -r --cached .vscode/
+git commit -m 'removed old folder'
+git push -all
+
+
 setup:
 
 git config --global user.name "your-name"

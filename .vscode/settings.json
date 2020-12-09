@@ -1,0 +1,6 @@
+{
+    "blankLine.keepOneEmptyLine": false,
+    "blankLine.triggerOnSave": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10000
+}
